@@ -1,0 +1,167 @@
+body{
+    background: #0f0e0ee1;
+}
+.parent{
+    height: 400px;
+    width: 400px;
+    margin: 150px auto;
+    position: relative;
+    animation: animation 2s linear infinite;
+     
+}
+
+@keyframes animation {
+    0%{
+        transform: rotate(0deg) scale(1);
+       
+    }
+    50%{
+        transform: rotate(180deg) scale(0.5);
+       
+    }
+    100%{
+        transform: rotate(-360deg) scale(1);
+       
+    }
+}
+
+.child{
+    height: 200px;
+    width: 200px;
+}
+
+.br2{
+    border-bottom-left-radius:200px ;
+    border-top-right-radius:200px ;
+}
+
+
+.child1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform-origin: bottom right;
+    transform: rotate(0deg);
+}
+
+.child1{
+    background: #dd10242f;
+    transform: rotate(12deg);
+}
+.child2{
+    background: #77b8d47f;
+    transform: rotate(24deg);
+}
+.child3{
+    background: #d477d46c;
+    transform: rotate(36deg);
+}
+.child4{
+    background: #8080806f;
+    transform: rotate(48deg);
+}
+.child5{
+    background: #5230309b;
+    transform: rotate(60deg);
+}
+.child6{
+    background: #cf141483;
+    transform: rotate(72deg);
+}
+.child7{
+    background: #8abb0e6b;
+    transform: rotate(84deg);
+}
+.child8{
+    background: #2b3a045f;
+    transform: rotate(96deg);
+}
+.child9{
+    background: #270d3e62;
+    transform: rotate(108deg);
+}
+.child10{
+    background: #bb930e4f;
+    transform: rotate(120deg);
+}
+.child11{
+    background: #075a104f;
+    transform: rotate(132deg);
+}
+.child12{
+    background: #3af90f4f;
+    transform: rotate(144deg);
+}
+.child13{
+    background: #bb930e4f;
+    transform: rotate(156deg);
+}
+.child14{
+    background: #0e98bb71;
+    transform: rotate(168deg);
+}
+.child15{
+    background: rgba(161, 174, 12, 0.264);
+    transform: rotate(180deg);
+}
+.child16{
+    background: #bb0e6d7e;
+    transform: rotate(192deg);
+}
+.child17{
+    background: #0ebb989d;
+    transform: rotate(204deg);
+}
+.child18{
+    background: #0e4dbb9d;
+    transform: rotate(216deg);
+}
+.child19{
+    background: #0ebb2e9d;
+    transform: rotate(228deg);
+}
+.child20{
+    background: #0e25bb9d;
+    transform: rotate(240deg);
+}
+.child21{
+    background: #0ebb989d;
+    transform: rotate(252deg);
+}
+.child22{
+    background: #bb0e0e9d;
+    transform: rotate(264deg);
+}
+.child23{
+    background: #064b1b9d;
+    transform: rotate(276deg);
+}
+.child24{
+    background: #640ebb9d;
+    transform: rotate(288deg);
+}
+.child25{
+    background: #0ebb5f8e;
+    transform: rotate(300deg);
+}
+.child26{
+    background: #420ebb9d;
+    transform: rotate(312deg);
+}
+.child27{
+    background: #0ebb989d;
+    transform: rotate(324deg);
+}
+.child28{
+    background: #0e48bbab;
+    transform: rotate(336deg);
+}
+.child29{
+    background: #26c9149d;
+    transform: rotate(348deg);
+}
+.child30{
+    background: #bb950e9d;
+    transform: rotate(360deg);
+}
+
